@@ -1,25 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import StandOut from './components/StandOut';
+import Category from './components/Category';
+import Testimonials from './components/Testimonials';
+import TestimonialsInfo from './components/TestimonialsInfo';
+import Photos from './components/Photos';
+import Footer from './components/Footer';
+
 
 function App() {
+
+  const testimonials=TestimonialsInfo.map(client=> {
+    return (
+    <Testimonials 
+    key={client.id} 
+    {...client}/>
+    )})
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header/>
+      <About/>
+      <StandOut/>
+      <Category/>
+      <div className='testimonials-component'>
+        <div className='d-flex justify-content-center headline'>Client Testimonials</div>
+        <div className='testimonials'>
+          <div className='container3'>
+            {testimonials}
+        </div>
+        </div>
+      </div>
+      <Photos/>
+      <Footer/>
+    </>
+    
+  )
 }
 
 export default App;

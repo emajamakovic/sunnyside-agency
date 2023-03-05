@@ -1,38 +1,272 @@
-.App {
-  text-align: center;
+.header{
+    height: 900px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-photo{
+    width: 100%;
+    height: 900px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+    width: 153px;
+    height: 30px;
+    left:48px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.options{
+    right: 48px;
 }
 
-.App-link {
-  color: #61dafb;
+.options li{
+    margin-left: 58px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container1{
+    top: 35px;
+    height: 59px;
+    
 }
+
+.li-contact{
+    color:black;
+    font-variant:all-petite-caps;
+    background-color: white;
+    width: 140px;
+    height: 56px;
+    border-radius: 27px;
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    
+    
+
+}
+
+.li-item{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+
+.heading {
+    margin-top: 100px;
+    font-family: 'Fraunces', serif;
+    font-variant: all-petite-caps;
+    color: white;
+    height: 112px;
+}
+
+.heading p {
+    font-size: 77px;
+    font-weight: bolder;
+    letter-spacing: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow{
+    margin-top: 146px;
+}
+
+.arrow img{
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.about-info p {
+    width: 415px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: gray;
+}
+
+
+.about-info h1 {
+    font-family: 'Fraunces', serif;
+    width: 350px;
+    font-weight: 900;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    width: 799px;
+}
+
+.informations, .photo, .category{
+    width: 759.5px;
+    height: 600px;
+    background-color: #fffbf8;
+}
+
+.photo img{
+    width: 759.5px;
+    height: 600px;
+}
+
+.about-info button{
+    background-color: #fffbf8;
+    border: 0;
+    font-family: 'Fraunces', serif;
+    font-variant: all-petite-caps;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.graphic-design{
+    width: 759.5px;
+    height: 600px;
+    color: #25564B;
+
+}
+
+.graphic-design div{
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.graphic-design p{
+    text-align: -webkit-center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+
+}
+
+.graphic-design h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+
+}
+
+.photography{
+    width: 759.5px;
+    height: 600px;
+    color: #1b5975;
+}
+
+.photography div{
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.photography p{
+    text-align: -webkit-center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    width: 327px;
+
+}
+
+.photography h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.testimonials{
+    width: 100%;
+    height: 618px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client{
+    width: 381px;
+    height: 400px;
+}
+
+.client div{
+    display: flex;
+    justify-content: center;
+}
+
+.client img{
+    width: 70px;
+    height:70px;
+    border-radius: 50px;
+}
+
+.desc p{
+    width: 341px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: gray;
+    font-size: 18px;
+}
+
+.name a{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.proffesion p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: lightgray;
+}
+
+.testimonials-component .headline{
+    padding-top: 132px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-variant: all-petite-caps;
+    color: lightgray;
+    letter-spacing: 4px;
+    font-size: 29px;
+}
+
+.testimonials-component{
+    background-color: #fffbf8;
+}
+
+.photos img{
+    width: 379.85px;
+}
+
+.footer{
+    background-color: #90d4c5;
+    height: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img img{
+    width: 170px;
+    
+}
+
+.footer-chooser {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.footer-chooser li {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: #25564B;
+
+}
+
