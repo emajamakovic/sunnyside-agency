@@ -1,6 +1,7 @@
 import React from "react";
-import Logo from '../images/logo.svg'
-import Arrow from '../images/icon-arrow-down.svg'
+import Logo from '../images/logo.svg';
+import Arrow from '../images/icon-arrow-down.svg';
+import '../styles/Header.css';
 
 
 export default function Navbar() {

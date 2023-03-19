@@ -1,0 +1,40 @@
+
+.about-info p {
+    width: 415px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: gray;
+}
+
+
+.about-info h1 {
+    font-family: 'Fraunces', serif;
+    width: 350px;
+    font-weight: 900;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    width: 799px;
+}
+
+.informations, .photo, .category{
+    width: 759.5px;
+    height: 600px;
+    background-color: #fffbf8;
+}
+
+.photo img{
+    width: 759.5px;
+    height: 600px;
+}
+
+.about-info button{
+    background-color: #fffbf8;
+    border: 0;
+    font-family: 'Fraunces', serif;
+    font-variant: all-petite-caps;
+    font-size: 22px;
+    font-weight: 700;
+}

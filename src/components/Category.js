@@ -1,8 +1,9 @@
 import React from "react";
+import '../styles/Category.css';
 
 export default function Category() {
     return (
-        <div className="standout d-flex align-items-center">
+        <div className="d-flex align-items-center">
             <div className="photo">
                 <img className="position-absolute" src={require('../images/desktop/image-graphic-design.jpg')} />
                 <div className="position-relative graphic-design ">

@@ -1,0 +1,52 @@
+
+.graphic-design{
+    width: 759.5px;
+    height: 600px;
+    color: #25564B;
+
+}
+
+.graphic-design div{
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.graphic-design p{
+    text-align: -webkit-center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+
+}
+
+.graphic-design h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+
+}
+
+.photography{
+    width: 759.5px;
+    height: 600px;
+    color: #1b5975;
+}
+
+.photography div{
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.photography p{
+    text-align: -webkit-center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    width: 327px;
+
+}
+
+.photography h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+
+}

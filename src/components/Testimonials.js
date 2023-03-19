@@ -2,6 +2,7 @@ import React from "react";
 import emily from '../images/image-emily.jpg';
 import jennie from '../images/image-jennie.jpg';
 import thomas from '../images/image-thomas.jpg';
+import '../styles/Testimonials.css';
 
 
 export default function Testimonials(props) {

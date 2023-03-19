@@ -4,6 +4,7 @@ import Instagram from '../images/icon-instagram.svg';
 import Pinterest from '../images/icon-pinterest.svg';
 import Twitter from '../images/icon-twitter.svg';
 import Facebook from '../images/icon-facebook.svg';
+import '../styles/Footer.css';
 
 
 

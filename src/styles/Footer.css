@@ -1,0 +1,27 @@
+
+.footer{
+    background-color: #90d4c5;
+    height: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img img{
+    width: 170px;
+    
+}
+
+.footer-chooser {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.footer-chooser li {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: #25564B;
+
+}

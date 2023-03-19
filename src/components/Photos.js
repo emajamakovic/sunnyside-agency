@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/Photos.css';
 
 export default function Photos() {
     return (

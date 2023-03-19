@@ -1,0 +1,37 @@
+
+.client{
+    width: 381px;
+    height: 400px;
+}
+
+.client div{
+    display: flex;
+    justify-content: center;
+}
+
+.client img{
+    width: 70px;
+    height:70px;
+    border-radius: 50px;
+}
+
+.desc p{
+    width: 341px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: gray;
+    font-size: 18px;
+}
+
+.name a{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 17px;
+}
+.proffesion p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: lightgray;
+}
