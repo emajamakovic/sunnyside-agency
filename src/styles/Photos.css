@@ -1,3 +1,18 @@
+.photos{
+    display: flex;
+}
+
 .photos img{
-    width: 379.85px;
+    width: 25%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .photos img{
+        width: 100%;
+    }
+
+    .photos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

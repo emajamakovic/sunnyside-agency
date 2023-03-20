@@ -1,0 +1,10 @@
+.standout{
+    display: flex;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .standout{
+        display: grid;
+    }
+
+}

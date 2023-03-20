@@ -3,7 +3,7 @@ import '../styles/Photos.css';
 
 export default function Photos() {
     return (
-        <div className="photos d-flex">
+        <div className="photos">
             <img src={require('../images/desktop/image-gallery-milkbottles.jpg')}/>
             <img src={require('../images/desktop/image-gallery-orange.jpg')}/>
             <img src={require('../images/desktop/image-gallery-cone.jpg')}/>

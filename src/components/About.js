@@ -3,7 +3,7 @@ import '../styles/About.css';
 
 export default function About() {
     return (
-        <div className="about d-flex align-items-center">
+        <div className="about align-items-center">
             <div className="informations d-flex align-items-center">
                 <div className="container2">
                     <div className="about-info">

@@ -80,3 +80,14 @@
     transform: translateX(-50%);
     
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .options{
+       display: none;
+    }
+
+    .heading p {
+        font-size: 40px;
+        text-align: center;
+    }
+}

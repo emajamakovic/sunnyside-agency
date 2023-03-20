@@ -1,9 +1,10 @@
 import React from "react";
 import '../styles/About.css';
+import '../styles/StandOut.css';
 
 export default function StandOut() {
     return (
-        <div className="standout d-flex align-items-center">
+        <div className="standout align-items-center">
             <div className="photo">
                 <img src={require('../images/desktop/image-stand-out.jpg')} />
 
